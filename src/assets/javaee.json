@@ -1,0 +1,246 @@
+[
+  {
+    "label": "Which of the following is not a kind of exception that is thrown by JDBC method?",
+    "choices": [
+      {
+        "value": "DataRounding",
+        "correct": true
+      },
+      {
+        "value": "SQL Exception",
+        "correct": false
+      },
+      {
+        "value": "DataTruncation",
+        "correct": false
+      },
+      {
+        "value": "SQL Warning",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following could be written with little knowledge of java?",
+    "choices": [
+      {
+        "value": "Java Servlets",
+        "correct": false
+      },
+      {
+        "value": "Java Server Pages",
+        "correct": true
+      },
+      {
+        "value": "Common Gateway Interface",
+        "correct": false
+      },
+      {
+        "value": "Java Community Program",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following is a business component in J2EE?",
+    "choices": [
+      {
+        "value": "Java servlet and JSP (Web)",
+        "correct": false
+      },
+      {
+        "value": "Applets",
+        "correct": false
+      },
+      {
+        "value": "Application clients",
+        "correct": false
+      },
+      {
+        "value": "Enterprise Java Beans (EJB)",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "Which of the following modifiers can be applied to a constructor?",
+    "choices": [
+      {
+        "value": "volatile",
+        "correct": false
+      },
+      {
+        "value": "final",
+        "correct": false
+      },
+      {
+        "value": "private",
+        "correct": true
+      },
+      {
+        "value": "abstract",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which is responsible for getting a connection to the database?",
+    "choices": [
+      {
+        "value": "Connection",
+        "correct": false
+      },
+      {
+        "value": "Driver",
+        "correct": true
+      },
+      {
+        "value": "Statement",
+        "correct": false
+      },
+      {
+        "value": "ResultSet",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "How constructor can be used for a servlet?",
+    "choices": [
+      {
+        "value": "Initialization and Constructor function",
+        "correct": true
+      },
+      {
+        "value": "Constructor function",
+        "correct": false
+      },
+      {
+        "value": "Setup() method",
+        "correct": false
+      },
+      {
+        "value": "Initialization",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following is/are steps for the servlet life cycle?",
+    "choices": [
+      {
+        "value": "Servlet class is loaded",
+        "correct": false
+      },
+      {
+        "value": "Servlet instance is created",
+        "correct": false
+      },
+      {
+        "value": "init,Service,destroy method is invoked",
+        "correct": false
+      },
+      {
+        "value": "All of the mentioned",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "A servlet is a Java program that is invoked via HTTP on the webserver.",
+    "choices": [
+      {
+        "value": "True",
+        "correct": true
+      },
+      {
+        "value": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "__________ is used to read data from a client request",
+    "choices": [
+      {
+        "value": "ServletResponse",
+        "correct": false
+      },
+      {
+        "value": "ServletRequest",
+        "correct": true
+      },
+      {
+        "value": "Servlet",
+        "correct": false
+      },
+      {
+        "value": "ServletConfig",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following database is not supported by Hibernate?",
+    "choices": [
+      {
+        "value": "MySQL",
+        "correct": false
+      },
+      {
+        "value": "FoundationDB",
+        "correct": true
+      },
+      {
+        "value": "PostgreSQL",
+        "correct": false
+      },
+      {
+        "value": "DB2/NT",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "The hibernate XML configuration file name is?",
+    "choices": [
+      {
+        "value": "hibernate.cfg.xml",
+        "correct": true
+      },
+      {
+        "value": "hibernate.cg.xml",
+        "correct": false
+      },
+      {
+        "value": "hibernate.config.xml",
+        "correct": false
+      },
+      {
+        "value": "None of the mentioned",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is ORM?",
+    "choices": [
+      {
+        "value": "ORM is the automated persistence of objects in a Java application to the tables in a relational database",
+        "correct": true
+      },
+      {
+        "value": "ORM stands for object-relational mapping",
+        "correct": false
+      },
+      {
+        "value": "Both of above",
+        "correct": true
+      },
+      {
+        "value": "None of the mentioned",
+        "correct": false
+      }
+    ]
+  }
+]

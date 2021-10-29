@@ -1,0 +1,57 @@
+[
+  {
+    "label": "Which of the following is correct about TypeScript?",
+    "choices": [
+      {
+        "value": "Angular is based on TypeScript.",
+        "correct": false
+      },
+      {
+        "value": "This is a superset of JavaScript.",
+        "correct": false
+      },
+      {
+        "value": "TypeScript is maintained by Microsoft.",
+        "correct": false
+      },
+      {
+        "value": "All of the above",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "RxJS can be used for?",
+    "choices": [
+      {
+        "value": "Browser",
+        "correct": false
+      },
+      {
+        "value": "Server Side",
+        "correct": false
+      },
+      {
+        "value": "Both",
+        "correct": true
+      },
+      {
+        "value": "None of above",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Router is part of @angular/core?",
+    "choices": [
+      {
+        "value": "Yes",
+        "correct": false
+      },
+      {
+        "value": "No",
+        "correct": false
+      }
+    ]
+  }
+]

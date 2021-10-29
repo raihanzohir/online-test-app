@@ -1,0 +1,32 @@
+
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>QuizApp</span>
+      <span class="example-spacer"></span>
+      <button mat-raised-button color="" routerLink="/login">Login</button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+<div *ngIf="quiz">
+  <h1 style="text-align: center;">{{quiz.label}}</h1>
+</div>
+
+<mat-card class="question-container">
+  
+  <div *ngIf="quiz && !questions" class="spinner-grow text primary">
+  </div>
+  <div *ngIf="questions" class="quiz">
+    <div *ngIf="!showResults" class="questions">
+      <app-question-form [question]="questions[currentQuestionIndex]" (onChoiceMade)="updateChoice($event)">
+      </app-question-form>
+      <mat-card-actions align="center">
+        <button mat-raised-button class="btn btn-success" color="primary" (click)="nextOrViewResults()"
+          [disabled]="!answers.values[currentQuestionIndex]">
+          {{currentQuestionIndex === questions.length -1 ? 'Submit' : 'Next'}}
+        </button>
+      </mat-card-actions>
+    </div>
+    <app-results *ngIf="showResults" [answers]="answers" [questions]="questions"></app-results>
+  </div>
+
+</mat-card>

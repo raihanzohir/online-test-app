@@ -1,0 +1,26 @@
+[
+    {
+      "label": "Core Java",
+      "name": "javase",
+      "description": "Core Java Questions",
+      "fileName": "javase.json"
+    },
+    {
+      "label": "Advanced Java",
+      "name": "javaee",
+      "description": "Advanced Java Questions",
+      "fileName": "javaee.json"
+    },
+    {
+    "label": "JavaScript",
+    "name": "js",
+    "description": "JavaScript Questions",
+    "fileName": "js.json"
+    },
+    {
+    "label": "Angular",
+    "name": "angular",
+    "description": "Angular Questions",
+    "fileName": "angular.json"
+    }
+  ]

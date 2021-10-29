@@ -1,0 +1,60 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.content {
+  display: flex;
+  margin: 32px auto 32px;
+  padding: 0 16px;
+  max-width: 960px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-container {
+    max-width: 1000px;
+    /*margin: 20px auto;*/
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-link-btn {   
+    font-size: 30px;
+    color: black;
+    text-decoration: none !important;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-card {
+  margin: 20px;
+}
+
+.example-card {
+  max-width: 400px;
+  margin: 10px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.quiz-img {
+  height: 100px;
+  width: 220px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+button.mat-raised-button:hover {
+  background-color: purple;
+  color: white;   
+}
+

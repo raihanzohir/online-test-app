@@ -1,0 +1,21 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.question-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: left;
+}
+
+button {
+  font-size: 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+button.mat-raised-button:hover {
+  background-color: purple;
+  color: white;   
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Which type of JavaScript language is ___",
+    "choices": [
+      {
+        "value": "Object-Oriented",
+        "correct": false
+      },
+      {
+        "value": "Object-Based",
+        "correct": true
+      },
+      {
+        "value": "Assembly-language",
+        "correct": false
+      },
+      {
+        "value": "High-level",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which one of the following also known as Conditional Expression:",
+    "choices": [
+      {
+        "value": "Alternative to if-else",
+        "correct": false
+      },
+      {
+        "value": "Switch statement",
+        "correct": false
+      },
+      {
+        "value": "If-then-else statement",
+        "correct": false
+      },
+      {
+        "value": "immediate if",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "The function and var are known as:",
+    "choices": [
+      {
+        "value": "Data types",
+        "correct": false
+      },
+      {
+        "value": "Prototypes",
+        "correct": false
+      },
+      {
+        "value": "Keywords",
+        "correct": false
+      },
+      {
+        "value": "Declaration statements",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "Which of the following variables takes precedence over the others if the names are the same?",
+    "choices": [
+      {
+        "value": "Global variable",
+        "correct": false
+      },
+      {
+        "value": "The two of the above",
+        "correct": false
+      },
+      {
+        "value": "The local element",
+        "correct": true
+      },
+      {
+        "value": "None of the above",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "In the JavaScript, which one of the following is not considered as an error:",
+    "choices": [
+      {
+        "value": "Syntax error",
+        "correct": false
+      },
+      {
+        "value": "Division by zero",
+        "correct": true
+      },
+      {
+        "value": "Missing of semicolons",
+        "correct": false
+      },
+      {
+        "value": "Missing of Bracket",
+        "correct": false
+      }
+    ]
+  }
+]

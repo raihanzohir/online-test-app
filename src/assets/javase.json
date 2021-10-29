@@ -1,0 +1,170 @@
+[
+  {
+    "label": "1. Which of the following is not a Java features?",
+    "choices": [
+      {
+        "value": "Use of pointers",
+        "correct": true
+      },
+      {
+        "value": "Dynamic",
+        "correct": false
+      },
+      {
+        "value": "Architecture Neutral",
+        "correct": false
+      },
+      {
+        "value": "Object-oriented",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "2. What is the return type of the hashCode() method in the Object class?",
+    "choices": [
+      {
+        "value": "Object",
+        "correct": false
+      },
+      {
+        "value": "int",
+        "correct": true
+      },
+      {
+        "value": "long",
+        "correct": false
+      },
+      {
+        "value": "void",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "3. Which of the following is a valid long literal?",
+    "choices": [
+      {
+        "value": "ABH8097",
+        "correct": false
+      },
+      {
+        "value": "L990023",
+        "correct": false
+      },
+      {
+        "value": "904423",
+        "correct": false
+      },
+      {
+        "value": "0xnf029L",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "4. What does the expression float a = 35 / 0 return?",
+    "choices": [
+      {
+        "value": "0",
+        "correct": false
+      },
+      {
+        "value": "Not a Number",
+        "correct": false
+      },
+      {
+        "value": "Infinity",
+        "correct": true
+      },
+      {
+        "value": "Runtime Exception",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "5. Which of the following creates a List of 3 visible items and multiple selections abled?",
+    "choices": [
+      {
+        "value": "new List(false, 3)",
+        "correct": false
+      },
+      {
+        "value": "new List(3, true)",
+        "correct": true
+      },
+      {
+        "value": "new List(true, 3)",
+        "correct": false
+      },
+      {
+        "value": "new List(3, false)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "6. Which of the following for loop declaration is not valid?",
+    "choices": [
+      {
+        "value": "for ( int i = 99; i >= 0; i / 9 )",
+        "correct": true
+      },
+      {
+        "value": "for ( int i = 7; i <= 77; i += 7 )",
+        "correct": true
+      },
+      {
+        "value": "for ( int i = 20; i >= 2; - -i )",
+        "correct": false
+      },
+      {
+        "value": "for ( int i = 2; i <= 20; i = 2* i )",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "7. Which of the following is true about the anonymous inner class?",
+    "choices": [
+      {
+        "value": "It has only methods",
+        "correct": false
+      },
+      {
+        "value": "Objects can't be created",
+        "correct": false
+      },
+      {
+        "value": "It has a fixed class name",
+        "correct": false
+      },
+      {
+        "value": "It has no class name",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "8. Which package contains the Random class?",
+    "choices": [
+      {
+        "value": "java.util",
+        "correct": true
+      },
+      {
+        "value": "java.lang",
+        "correct": false
+      },
+      {
+        "value": "java.awt",
+        "correct": false
+      },
+      {
+        "value": "java.io",
+        "correct": false
+      }
+    ]
+  }
+]
